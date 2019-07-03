@@ -56102,6 +56102,12 @@
 /obj/structure/grille,
 /turf/open/floor/plating/airless,
 /area/space/nearstation)
+"jBV" = (
+/obj/machinery/computer/warrant{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/lawoffice)
 "jCq" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -56174,8 +56180,8 @@
 /turf/open/floor/plasteel/grimy,
 /area/security/detectives_office)
 "kdH" = (
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+/obj/machinery/computer/warrant{
+	dir = 8
 	},
 /turf/open/floor/plasteel,
 /area/security/courtroom)
@@ -83837,7 +83843,7 @@ aph
 arT
 ata
 ata
-ata
+jBV
 auh
 aph
 awg

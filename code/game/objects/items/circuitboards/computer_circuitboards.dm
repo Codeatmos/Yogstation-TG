@@ -223,9 +223,67 @@
 	name = "R&D Server Control (Computer Board)"
 	build_path = /obj/machinery/computer/rdservercontrol
 
+<<<<<<< HEAD
 /obj/item/circuitboard/computer/crew
 	name = "Crew Monitoring Console (Computer Board)"
 	build_path = /obj/machinery/computer/crew
+=======
+/obj/item/circuitboard/computer/research
+	name = "Research Monitor (Computer Board)"
+	icon_state = "science"
+	build_path = /obj/machinery/computer/security/research
+
+/obj/item/circuitboard/computer/robotics
+	name = "Robotics Control (Computer Board)"
+	icon_state = "science"
+	build_path = /obj/machinery/computer/robotics
+
+/obj/item/circuitboard/computer/xenobiology
+	name = "circuit board (Xenobiology Console)"
+	icon_state = "science"
+	build_path = /obj/machinery/computer/camera_advanced/xenobio
+
+//Security
+
+/obj/item/circuitboard/computer/labor_shuttle
+	name = "Labor Shuttle (Computer Board)"
+	icon_state = "security"
+	build_path = /obj/machinery/computer/shuttle/labor
+
+/obj/item/circuitboard/computer/labor_shuttle/one_way
+	name = "Prisoner Shuttle Console (Computer Board)"
+	icon_state = "security"
+	build_path = /obj/machinery/computer/shuttle/labor/one_way
+
+/obj/item/circuitboard/computer/gulag_teleporter_console
+	name = "Labor Camp teleporter console (Computer Board)"
+	icon_state = "security"
+	build_path = /obj/machinery/computer/gulag_teleporter_computer
+
+/obj/item/circuitboard/computer/prisoner
+	name = "Prisoner Management Console (Computer Board)"
+	icon_state = "security"
+	build_path = /obj/machinery/computer/prisoner
+
+/obj/item/circuitboard/computer/secure_data
+	name = "Security Records Console (Computer Board)"
+	icon_state = "security"
+	build_path = /obj/machinery/computer/secure_data
+
+/obj/item/circuitboard/computer/warrant
+	name = "Security Warrant Viewer (Computer Board)"
+	icon_state = "security"
+	build_path = /obj/machinery/computer/warrant
+
+/obj/item/circuitboard/computer/security
+	name = "Security Cameras (Computer Board)"
+	icon_state = "security"
+	build_path = /obj/machinery/computer/security
+
+//Service
+
+//Supply
+>>>>>>> a8197eb3dd... Citations (#44853)
 
 /obj/item/circuitboard/computer/mech_bay_power_console
 	name = "Mech Bay Power Control Console (Computer Board)"
@@ -312,6 +370,7 @@
 	name = "Mining Shuttle (Computer Board)"
 	build_path = /obj/machinery/computer/shuttle/mining
 
+<<<<<<< HEAD
 /obj/item/circuitboard/computer/white_ship
 	name = "White Ship (Computer Board)"
 	build_path = /obj/machinery/computer/shuttle/white_ship
@@ -394,3 +453,8 @@
 /obj/item/circuitboard/computer/nanite_cloud_controller
 	name = "Nanite Cloud Control (Computer Board)"
 	build_path = /obj/machinery/computer/nanite_cloud_controller
+=======
+/obj/item/circuitboard/computer/mining_shuttle/common
+	name = "Lavaland Shuttle (Computer Board)"
+	build_path = /obj/machinery/computer/shuttle/mining/common
+>>>>>>> a8197eb3dd... Citations (#44853)
